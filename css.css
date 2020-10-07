@@ -1,0 +1,57 @@
+.slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+body{
+	display: flex;
+	height: 500px;
+}
+
+img {
+	object-fit: cover;
+	display: flex;
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: red;
+    border-image: initial;
+}
+
+button {
+	margin: auto;
+    width: 50px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: red;
+}	
+
+.indicator_ {
+	margin: 0 auto;
+    width: 50px;
+    border-radius: 100px;
+    height: 50px;
+    margin: auto;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: red;
+    border-style: outset;
+    border-image: initial;
+}
+
+.photos{
+	display: flex;
+    flex-flow: column;border: 3px solid #fff;
+}
+		
+.ind{
+    text-align: center;
+}
+
+.slider{
+
+}
